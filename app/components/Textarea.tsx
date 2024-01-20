@@ -10,6 +10,7 @@ function Textarea() {
   useEffect(() => {
     handleChange(localStorage.getItem("text") as string);
   }, []);
+
   return (
     <div className="">
       <ReactTextareaAutosize
